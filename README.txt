@@ -15,3 +15,6 @@ Gyanchand Maurya
 gyanchandmaurya@gmail.com
 
 The website uses the existing SecureWealth logo URL and Creso sign-up URL supplied in the original code.
+
+<link rel="shortcut icon" href="https://i.ibb.co/4ZPC3Cr3/Secure-Wealth-Logo-plain.jpg" type="image/x-icon">
+/* "https://i.ibb.co/hFjsKrrb/Gyanchand-Pic.jpg" */
