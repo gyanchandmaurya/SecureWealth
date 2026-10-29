@@ -197,7 +197,21 @@ h3{color:var(--navy)}.lead{font-size:19px;color:var(--muted);max-width:650px}
 .badge-top{right:-5px}
 .badge-bottom{left:-5px}.section{padding:65px 0}.cta-box{padding:30px}.footer{flex-direction:column;align-items:flex-start}.whatsapp-float{right:15px;bottom:15px}h1{letter-spacing:-1.8px}.services-all .big{min-height:auto}.services-all .big .btn{margin-top:10px}}
 
+.brand2{
+    display:flex;
+    align-items:center;
+    gap:11px;
+    font-weight:900;
+    color:var(--navy);
+    font-size:18px
+}
 
+.brand2 img{
+    width:152px;
+    height:152px;
+    object-fit:contain;
+    border-radius:12px
+}
 
 /* "https://i.ibb.co/hFjsKrrb/Gyanchand-Pic.jpg" */
 
