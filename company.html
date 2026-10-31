@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Company Registration | SecureWealth Financial Services</title><link rel="stylesheet" href="company.css"></head>
+<body>
+<header>
+    <a class="brand" href="index.html"><img src="https://i.ibb.co/4ZPC3Cr3/Secure-Wealth-Logo-plain.jpg" alt="SecureWealth Logo"></span></span><span><b>Secure<span class="green">Wealth</span></b><small>FINANCIAL SERVICES</small><em>Growing Wealth. Protecting Futures.</em></span>
+<nav><a href="index.html">Home</a><a href="index.html#services">Services</a><a class="active" href="company.html">Company</a><a href="contact.html">Contact</a><a class="cta" href="#enquiry">Get a Quote</a></nav></header>
+
+<main>
+    <section class="hero"><small>START YOUR BUSINESS JOURNEY</small><h1>Register Your Company.<br><span>Build Your Future.</span></h1><p>Explore company and LLP registration packages with online assistance and clear pricing.</p><a class="hero-btn" href="#plans">Explore Packages ↓</a></section>
+    <section class="intro" id="plans"><small>OUR REGISTRATION SERVICES</small><h2>Choose the Right Business Structure</h2><p>Compare packages and contact us to discuss the structure that suits your business objectives.</p></section>
+    <section class="plans">
+        <article class="plan featured"><label>POPULAR CHOICE</label><h3>Private Limited Company</h3><strong>₹24,700 <small>all-inclusive*</small></strong><ul><li>Estimated timeline: 10–15 days*</li><li>Online service; no physical presence generally required*</li><li>No minimum paid-up capital requirement under current framework*</li></ul><a href="#enquiry" data-service="Private Limited Company">Enquire Now →</a></article>
+        <article class="plan"><h3>LLP Registration</h3><strong>₹19,500 <small>all-inclusive*</small></strong><ul><li>Competitive package pricing*</li><li>Estimated timeline: 20–25 days*</li><li>Generally fewer compliances than a private limited company</li><li>Limited liability of partners, subject to law</li></ul><a href="#enquiry" data-service="LLP">Enquire Now →</a></article>
+        <article class="plan"><h3>One Person Company (OPC)</h3><strong>₹20,700 <small>all-inclusive*</small></strong><ul><li>Estimated timeline: 10–15 days*</li><li>Online service; no physical presence generally required*</li><li>No minimum paid-up capital requirement under current framework*</li></ul><a href="#enquiry" data-service="One Person Company (OPC)">Enquire Now →</a></article>
+        <article class="plan"><h3>Public Limited Company</h3><strong>₹61,500 <small>all-inclusive*</small></strong><ul><li>Estimated timeline: 10–15 days*</li><li>Online service; no physical presence generally required*</li><li>No minimum paid-up capital requirement under current framework*</li></ul><a href="#enquiry" data-service="Public Limited Company">Enquire Now →</a></article>
+        <article class="plan"><h3>Nidhi Company</h3><strong>₹40,799 <small>all-inclusive*</small></strong><ul><li>Estimated timeline: 10–15 days*</li><li>Minimum capital stated in package: ₹10,00,000*</li><li>Access to Nidhi software and compliance support*</li></ul><a href="#enquiry" data-service="Nidhi Company">Enquire Now →</a></article>
+        <article class="plan"><h3>Producer Company</h3><strong>₹62,500 <small>all-inclusive*</small></strong><ul><li>Estimated timeline: 20–25 days*</li><li>Minimum capital stated in package: ₹5,00,000*</li><li>Access to producer software and compliance support*</li></ul><a href="#enquiry" data-service="Producer Company">Enquire Now →</a></article>
+        <article class="plan"><h3>Section 8 Company (NPO / NGO)</h3><strong>₹51,710 <small>all-inclusive*</small></strong><ul><li>Estimated timeline: 25–30 days, including licence process*</li><li>No minimum paid-up capital requirement under current framework*</li><li>May be an alternative to trust or society registration, depending on needs</li></ul><a href="#enquiry" data-service="Section 8 Company (NPO / NGO)">Enquire Now →</a></article>
+        <article class="plan"><h3>Microfinance (Credit) Company</h3><strong>₹1,78,000 <small>all-inclusive*</small></strong><ul><li>Estimated timeline: 25–30 days*</li><li>Proposed registration via Section 8 company*</li><li>Regulatory requirements depend on structure and lending activities</li></ul><a href="#enquiry" data-service="Microfinance (Credit) Company">Enquire Now →</a></article>
+    </section>
+
+    <section class="disclaimer"><b>Important information</b><p>*Prices, inclusions and timelines are indicative and must be confirmed in a written quotation. Actual timelines depend on document readiness, name approval, government processing and applicable rules. Fees and stamp duty may vary by state and case. Registration or approval is not guaranteed.</p><p>For microfinance and lending activities, do not assume RBI or other regulatory approval is unnecessary. Requirements depend on the entity, business model and current regulations. Obtain specific professional and regulatory advice before commencing operations.</p></section>
+
+    <section class="enquiry" id="enquiry"><div><small>LET'S GET STARTED</small><h2>Have a Company Registration Requirement?</h2><p>Send your details and we’ll help you discuss the next steps.</p><p><b>Gyanchand Maurya</b><br>SecureWealth Financial Services<br>☎ +91 92209 73200<br>✉ securewealthfins@gmail.com<br>www.securewealthfs.com</p></div>
+
+        <form id="leadForm"><label>Full Name *<input id="name" required placeholder="Your name"></label><label>Mobile Number *<input id="phone" required type="tel" placeholder="Your contact number" pattern="[0-9+() -]{8,18}"></label><label>Email<input id="email" type="email" placeholder="Your email (optional)"></label><label>Registration Type *<select id="type" required><option value="">Select type</option><option>Private Limited Company</option><option>LLP</option><option>One Person Company (OPC)</option><option>Public Limited Company</option><option>Nidhi Company</option><option>Producer Company</option><option>Section 8 Company (NPO / NGO)</option><option>Microfinance (Credit) Company</option><option>Need guidance</option></select></label><label>Message<textarea id="message" rows="3" placeholder="Your requirement"></textarea></label><button>Send Enquiry on WhatsApp →</button><small id="status">WhatsApp will open with your enquiry for you to review and send.</small></form>
+    </section>
+</main>
+
+<footer><span>© <span id="year"></span> SecureWealth Financial Services</span><span>Growing Wealth. Protecting Futures.</span></footer>
+
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+document.querySelectorAll('[data-service]').forEach(a=>a.addEventListener('click',()=>document.getElementById('type').value=a.dataset.service));
+document.getElementById('leadForm').addEventListener('submit',e=>{e.preventDefault();let v=id=>document.getElementById(id).value.trim();let msg=['Hello SecureWealth Financial Services,','I would like to enquire about company registration.','Name: '+v('name'),'Mobile: '+v('phone'),'Email: '+(v('email')||'Not provided'),'Registration type: '+v('type'),'Message: '+(v('message')||'No additional details')].join('\n');window.open('https://wa.me/919220973200?text='+encodeURIComponent(msg),'_blank','noopener,noreferrer');document.getElementById('status').textContent='WhatsApp is opening. Please press Send there to submit your enquiry.';});
+</script></body></html>
